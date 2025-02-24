@@ -1,4 +1,7 @@
 ```
+
+set_var = set() // create empty set 
+
 //can't be indexed.
 // Duplicate elements will automatically get removed
 num_set = {1, 2, 3, 4, 5}
@@ -11,9 +14,9 @@ print(nums)
 nums.add(-7)
 nums.remove(3)
 
-//The union operator | combines two sets to form a new one containing items in either. 
-//The intersection operator & gets items only in both. 
-//The difference operator - gets items in the first set but not in the second. 
+nums.union(nums) //The union operator | combines two sets to form a new one containing items in either. 
+nums.intersection(nums) //The intersection operator & gets items only in both. 
+nums.difference(nums) //The difference operator - gets items exist in the first set but not in the second. 
 //The symmetric difference operator ^ gets items in either set, but not both. 
 
 first = {1, 2, 3, 4, 5, 6}
