@@ -1,5 +1,7 @@
 ```
 
+list(set(list)) // no duplicate in list
+
 set_var = set() // create empty set 
 
 //can't be indexed.
@@ -16,7 +18,9 @@ nums.remove(3)
 
 nums.union(nums) //The union operator | combines two sets to form a new one containing items in either. 
 nums.intersection(nums) //The intersection operator & gets items only in both. 
-nums.difference(nums) //The difference operator - gets items exist in the first set but not in the second. 
+nums.difference(nums) //The difference operator - gets items exist in the first set but not in the second.
+nums.symmetric_difference(nums) // Show only the names who only appear in one of the lists
+
 //The symmetric difference operator ^ gets items in either set, but not both. 
 
 first = {1, 2, 3, 4, 5, 6}
